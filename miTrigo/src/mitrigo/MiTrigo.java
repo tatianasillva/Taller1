@@ -56,8 +56,11 @@ public class MiTrigo {
     }
     
     r=x-y;
-    }          
-    } 
+    }     
     
+    
+    
+    } 
+   
 
 }
