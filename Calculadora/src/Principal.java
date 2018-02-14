@@ -8,18 +8,27 @@ public class Principal {
         
         
         
-        Scaner miEscaner;
+        Scanner miEscaner;
                 
-        miEscaner=new Scaner(System.in);
+        miEscaner=new Scanner(System.in);
 
-int entrada;
+int opcion;
 
 
+System.out.printin("ingrese el numero de la operacion")
+System.out.printin("a.sumar")       
+System.out.printin("b.restar") 
+System.out.printin("c.multiplicar")        
+System.out.printin("d.coseno")   
+        
+        
+      opcion = (int)miEscaner.nextFloat();
+      CalculadoraTrigonometrica.setx(entrada)
+        
+        
 entrada=miEscaner.nextint();
 miTrigo.sety(entrada);
 
-entrada=miEscaner.nextint();
-miTrigo.gets(entrada);
 
 miTrigo.sumar();
 
