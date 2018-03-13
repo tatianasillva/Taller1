@@ -15,15 +15,15 @@ public class Principal {
 int opcion;
 
 
-System.out.printin("ingrese el numero de la operacion")
-System.out.printin("a.sumar")       
-System.out.printin("b.restar") 
-System.out.printin("c.multiplicar")        
-System.out.printin("d.coseno")   
+System.out.println("ingrese el numero de la operacion");
+System.out.println("a.sumar") ;
+System.out.println("b.restar") ;
+System.out.println("c.multiplicar");        
+System.out.println("d.coseno")  ; 
         
         
       opcion = (int)miEscaner.nextFloat();
-      CalculadoraTrigonometrica.setx(entrada)
+      CalculadoraTrigonometrica.set(entrada)
         
         
 entrada=miEscaner.nextint();
